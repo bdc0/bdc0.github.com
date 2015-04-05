@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+   <title>Penguin Telecom, Inc. Schematic Capture</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="language" content="EN">
+    <meta name="author" content="Penguin Telecom, Inc.">
+    <meta name="copyright" content="2006 Penguin Telecom, Inc.">
+    <meta name="robots" content="index,follow">
+    <meta name="revisit-after" content="5 days">
+    <meta name="document-classification" content="Internet">
+    <meta name="document-type" content="Public">
+    <meta name="document-rating" content="Safe for Kids">
+    <meta name="document-distribution" content="Global">
+</head>
+<body>
+<table cellpadding=0 bgcolor="#F8F8F8"width=930>
+<tr>
+<td align=center><a href="index.htm"><img src="logo500side-144 copy.gif" width=384 height=96 alt="Penguin Telecom, Inc. logo" border="0"></a></td>
+</tr>
+</table>
+<table cellpadding=0 bgcolor="#F8F8F8" width=930>
+<tr>
+<td><a href="index.htm"><img src="home.gif" width=100 height=22 alt="Home" border="0"></a></td>
+<td><a href="capabilities.htm"><img src="capabilities.gif" width=100 height=22 alt="Capabilities" border="0"></a></td>
+<td><a href="schematics.htm"><img src="schematics-r.gif" width=100 height=22 alt="Schematics" border="0"</a></td>
+<td><a href="debugging.htm"><img src="debugging.gif" width=100 height=22 alt="Debugging" border="0"></a></td>
+<td><a href="processimprovement.htm"><img src="processimprovement.gif" width=200 height=22 alt="Process Improvement" border="0"></a></td>
+<td><a href="aboutus.htm"><img src="aboutus.gif" width=100 height=22 alt="About Us" border="0"></a></td>
+<td><a href="faq.htm"><img src="FAQ.gif" width=100 height=22 alt="FAQ" border="0"></a></td>
+<td><a href="books.htm"><img src="books.gif" width=100 height=22 alt="Books" border="0"></a></td>
+</tr>
+</table>
+<table cellpadding=0 bgcolor="#F8F8F8" width=930>
+<tr>
+<td colspan=2>
+<center><b><font size="+2">Schematic Capture</font></b></center>
+<p>Penguin Telecom's personnel have expert-level experience with getting symbols built and with schematic capture.  Unlike traditional methods, our method avoids manual entry when possible and provides checks when not.  Our flow includes:
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<ul>
+<li>Symbol generation by Perl-based manipulation of vendor data sheets.  All symbols are reviewed to conform to engineering conventions, intelligent pin grouping and customer guidelines.
+<li>100% checking of legacy or otherwise unverified symbols.  Automated methods to find missing and duplicate pins in two or three minutes instead of an hour on parts with 500+ pins.
+<li>Use of hierarchy and Configuration Management tools to support more than one engineer working on a schematic.
+<li>Definition of schematic naming rules before starting schematic entry to reduce integration problems.
+<li>Reviewing all DRC warnings to find the real ones among the inevitable numerous false positives.
+<li>Holding targeted design reviews looking over the whole schematic in depth as well as avoiding missing subtle problems.
+</ul>
+<p>
+</td>
+<td>
+<img src="551410_76883503-sm.jpg" width=250 height=188 alt="man with a schematic">
+</td>
+</tr>
+<tr>
+<td colspan=2>
+While our personnel have used various tools, we especially excel at working with Cadence OrCAD CIS.
+<p>
+We know that our designs must work right the first time, and we produce schematics accordingly.
+<hr>
+Some Schematic Capture Handoff Tips:
+<ol>
+<li>Check for nets with more than about 8 connections.  Often high connectivity on non-power nets represents an error when a slight mouse move shorts nets together
+<li>Check for nets with similar but different names (e.g. RSTN and RST_N).  If both nets have connections, a DRC typically won't find this problem.
+<li>After the schematic is frozen, perform schematic differences to ensure what changed is only what was supposed to.  Moving a net and shorting to another is a common source of errors.
+<li>Make sure parts' values haven't been changed without updating the part number.  This error will often result in incorrectly built boards.
+</ol>
+Penguin Telecom has semi-automated methods for checking for these and related problems.  We can also support outsourcing of your symbol generation process.  Give us an <a href="mailto:bdc@penguintelecom.com">e-mail</a>.
+<hr>
+</tr><tr>
+<td><p><p>Copyright (c) 2006 Penguin Telecom, Inc.
+<br>Penguin Telecom, the Penguin Telecom logo, the stylized penguin and "Innovative. Efficient. Persistent" are trademarks of Penguin Telecom, Inc.
+<br>Trademarks and registered trademarks used are the property of the respective companies.
+</td>
+</tr>
+</table>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-730289-1";
+urchinTracker();
+</script>
+</body>
+</html> 
